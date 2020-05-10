@@ -1,0 +1,77 @@
+body {
+   justify-content: center;
+}
+
+.banner {
+   width: 100vw;
+   position: relative;
+   height: 400px;
+}
+
+.banner .logo {
+   position: absolute;
+   top: 80px;
+   width: 100vw;
+   left: 0;
+   justify-content: center;
+}
+
+.banner .logo img {
+   width: 400px;
+}
+
+.wave {
+   width: 100%;
+   height: 400px;
+   max-height: 100%;
+   object-fit: fill;
+   min-width: 700px;
+}
+
+.intro-card-container {
+   top: 200px;
+   position: absolute;
+   width: 100%;
+   justify-content: center;
+}
+
+.intro-card .about {
+   flex-direction: column;
+   margin-left: 20px;
+}
+
+.intro-card .about>p {
+   font-weight: light;
+   font-style: italic;
+}
+
+.intro-card .about .categories {
+   flex-wrap: wrap;
+}
+
+.intro-card .about .categories p {
+   font-weight: bold;
+   background-color: #72b9aa;
+   color: #fff;
+   border-radius: 19px;
+   padding: 10px 20px;
+   margin: 0;
+   margin-right: 10px;
+   margin-top: 10px;
+   transition: 200ms;
+}
+
+.intro-card .about .categories p:hover {
+   transform: scale(1.1);
+}
+
+.intro-card .profile {
+   background-image: url('../img/maria.jpg');
+   background-size: cover;
+   background-position: center;
+   width: 120px;
+   height: 120px;
+   border-radius: 100%;
+   border: 3px #72b9aa solid;
+   flex-shrink: 0;
+}
