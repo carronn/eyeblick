@@ -3,4 +3,16 @@
     flex-direction: column;
     align-items: center;
   }
+
+  .about .icons {
+    flex-direction: column;
+  }
+
+  footer {
+    flex-direction: column;
+    align-items: center;
+  }
+  footer a {
+    justify-content: center;
+  }
 }
