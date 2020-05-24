@@ -152,9 +152,8 @@ body {
 
 .infoText {
    max-width: 952px;
-   margin: 20px;
    flex-direction: column;
-   margin: 30px 0;
+   margin: 30px 20px;
 }
 
 .infoText>div {
