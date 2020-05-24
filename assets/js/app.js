@@ -13,7 +13,7 @@ const renderReviews = () => {
     for (const reviewElement of reviewElements) {
       reviewElement.classList.add('card')
       const img = document.createElement('img')
-      img.src = '../assets/img/quote.svg'
+      img.src = 'assets/img/quote.svg'
       reviewElement.appendChild(img)
     }
     const fadeElement = document.createElement('div')
