@@ -1,5 +1,6 @@
 body {
    justify-content: center;
+   overflow: hidden;
 }
 
 .banner {
@@ -74,4 +75,12 @@ body {
    border-radius: 100%;
    border: 3px #72b9aa solid;
    flex-shrink: 0;
+}
+
+/* VIDEO ELEMENT */
+.video {
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   max-width: 900px;
 }
