@@ -94,6 +94,60 @@ body {
    text-transform: uppercase;
 }
 
+.audioPlayer {
+   display: block;
+   position: relative;
+   border-radius: 30px;
+   overflow: hidden;
+   box-shadow: 0px 0px 42px -24px rgba(0,0,0,0.55);
+   transition: 400ms;
+   cursor: pointer;
+}
+
+.audioPlayer:hover {
+  transform: scale(1.02);
+}
+
+.audioPlayer .bg {
+   width: 100%;
+}
+
+.controls {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.playBackControl {
+  width: 40px;
+  box-shadow: 0px 0px 42px -24px rgba(0,0,0,0.55);
+  margin: 10px;
+  animation-duration: 450ms;
+  animation-timing-function: linear;
+}
+
+.progressBar {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 10px;
+  background-color: #fff;
+  overflow: hidden;
+}
+
+#slider {
+  height: 100%;
+  width: 0;
+  background-color: #72b9aa;
+  transition-timing-function: linear;
+}
+
 /* REVIEWS */
 .reviews {
    position: relative;
@@ -222,4 +276,24 @@ body {
 
 .contact .button {
    margin: 10px 0;
+}
+
+
+@keyframes bounceIn{
+  0%{
+    opacity: 0;
+    transform: scale(0.3) translate3d(0,0,0);
+  }
+  50%{
+    opacity: 0.9;
+    transform: scale(1.1);
+  }
+  80%{
+    opacity: 1;
+    transform: scale(0.89);
+  }
+  100%{
+    opacity: 1;
+    transform: scale(1) translate3d(0,0,0);
+  }
 }
