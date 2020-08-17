@@ -29,7 +29,7 @@ const renderReviews = () => {
 const sendEmail = () => {
   const subject = document.querySelector('#subject').value
   const message = document.querySelector('#message').value
-  window.location.href = 'mailto:maria@eyeblick.se?subject=' + subject + '&body=' + message + '%0D%0A %0D%0A'
+  window.location.href = 'mailto:syntolk.eyeblick@gmail.com?subject=' + subject + '&body=' + message + '%0D%0A %0D%0A'
 }
 
 let playing = false
