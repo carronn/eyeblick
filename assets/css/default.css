@@ -66,11 +66,16 @@ footer {
 footer a {
     display: flex;
     flex-direction: row;
-    margin: 0 20px;
     color: #fff;
     text-decoration: none;
     align-items: center;
+    justify-content: center;
     width: 250px;
+    transition: 200ms;
+}
+
+footer a:hover {
+    background-color: #82CABB;
 }
 
 footer img {
@@ -82,7 +87,7 @@ footer img {
 /* .reviews ::-webkit-scrollbar {
     -webkit-appearance: none;
   }
-  
+
   .reviews  ::-webkit-scrollbar-thumb {
     border-radius: 20px;
     background-color: rgb(114, 185, 170, 1);
