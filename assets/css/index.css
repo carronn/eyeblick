@@ -65,7 +65,7 @@ body {
    transition: 200ms;
 }
 
-.intro-card .about .categories p:hover {
+.intro-card .about .categories a:hover {
    transform: scale(1.1);
 }
 
